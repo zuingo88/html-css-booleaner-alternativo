@@ -1,0 +1,180 @@
+/* Non potendo agire sulla struttura della pagina,
+ ho semplicemente fatto qualche modifica grafica
+ per provare a rendere meno faticosa la lettura.
+ Ho inoltre puntellato il codice per provare a snellirlo
+ e renderlo più semplice da leggere ed eventualmente modificare.    */
+
+
+
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fraunces', serif;
+}
+
+
+
+
+
+/* regole header */
+header {
+  height: 200px;
+  background-image: linear-gradient(to bottom, #000000, #292929, #4d4d4d, #757575, #9f9f9f);
+}
+
+#logo {
+  width: 500px; height: auto;
+  margin-top: 80px;
+  margin-left: 10%;
+}
+
+
+
+
+
+/* regole main */
+main {
+  padding: 30px 12% 30px 12%;
+  background-color: #9f9f9f;
+}
+
+.marginBottom {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/* regole section intro */
+h1 {
+  font-size: 40px;
+  margin-top: 20px;
+  font-family: 'Fraunces', serif;
+}
+
+.data {
+  font-size: 10px;
+  padding: 0;
+}
+
+#booleaner {
+  color: #193BAA;
+}
+
+.grey {
+  color: #3D3D3D;
+}
+
+#tim {
+  margin: auto;
+}
+
+.htim {
+  height: 300px;
+}
+
+#descrizioneFoto p {
+  font-size: 9px;
+  padding: 0;
+}
+
+
+
+
+
+/* regole section corpo */
+.evidenziato {
+  background-color: #CCCCCC;
+}
+
+#lista ul {
+  list-style-position: inside;
+}
+
+#corpo {
+  text-align: justify;
+}
+
+
+
+
+
+ /* regole tabella */
+table {
+  text-align: center;
+  border: 3px solid #3D3D3D;
+  border-collapse: collapse;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+thead {
+  color: white;
+  background-color: #00754B;
+}
+
+th {
+  border-bottom: 2px solid #3D3D3D;
+}
+
+td {
+  border: 2px solid #3D3D3D;
+}
+
+td, th {
+  min-width: 130px;
+}
+
+.lightGreen {
+  background-color: #7FD1AE;
+}
+
+.green {
+  background-color: #499A7A;
+}
+
+.testoPiccolo {
+  font-size: 15px;
+}
+
+
+
+
+
+/* regole section linkEsterni  */
+.marginLink {
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.link {
+  width: 200px; height: 125px;
+  color: white;
+  padding: 10px;
+  margin: 10px 0                                                                               ;
+  background-size: cover;
+}
+
+#monitor {
+  background-image: url(../img/monitor.jpg)
+}
+
+#graph {
+  background-image: url(../img/graph.jpg)
+}
+
+
+
+
+
+/* regole footer */
+footer {
+background-image: linear-gradient(to bottom, #9f9f9f, #b6b6b6, #cecece, #e6e6e6, #ffffff);  height: 150px;
+}
+
+.pfoot {
+  margin-top: 20px;
+  text-align: center;
+}
